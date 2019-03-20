@@ -66,8 +66,8 @@ const printToDom = (divId, textToPrint) => {
 const productCards = () => {
     let domString = '';
     products.forEach(product => {
-        domString += `<div class ='container'>`
-        domString += `<h3>${product.title}</h3>`
+        domString += `<div class ='container col-sm-4'>`
+        domString += `<h3 class="row-sm">${product.title}</h3>`
         domString += `</div>`
 
     });
